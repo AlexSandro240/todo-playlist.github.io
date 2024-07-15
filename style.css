@@ -76,3 +76,31 @@ p {
 .button-group input[type="button"]:hover {
     background-color: #0056b3;
 }
+
+#res {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .input-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group input[type="text"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-group input[type="button"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
