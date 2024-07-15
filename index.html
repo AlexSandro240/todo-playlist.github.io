@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista To Do</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Minha Playlist</h1>
+            <p>Se o player não estiver aparecendo recarregue a página usando CTRL + F5 ou CTRL + SHIFT + R</p>
+        <div id="player"></div>
+
+        <p>Adicione um link do youtube</p>
+
+        <div class="input-group">
+            <input type="text" name="item" id="item" placeholder="Adicione um link do vídeo (Youtube)">
+            <input type="button" id="adc" value="Adicionar" onclick="adc()">
+            <input type="button" id="remove" value="Remover" onclick="remove()">
+        </div>
+
+        <div class="button-group">
+            <input type="button" id="salvar" value="Salva sua playlist" onclick="salvar()">
+            <input type="button" id="carregar" value="Carregar sua Playlist" onclick="carregar()">
+            <input type="button" id="pular" value="pular" onclick="pular()">
+        </div>
+
+        <div id="res"></div>
+
+    
+    <script src="script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+   
+
+</body>
+
+</html>
